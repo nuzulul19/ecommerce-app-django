@@ -1,3 +1,7 @@
+black==22.6.0
 Django>=4.1.2,<4.2
-flake8>=4.0.1,<4.1
+flake8>=6.0.0,<6.1
+flake8-bugbear>=22.12.6,<23.0
+flake8-import-order>=0.18.1,<0.19
 Pillow>=9.2.0,<9.3
+pre-commit==2.20.0

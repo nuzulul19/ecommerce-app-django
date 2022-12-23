@@ -1,6 +1,11 @@
 [flake8]
+max-complexity = 10
+max-line-length = 119
+import-order-style = google
+application-import-names = apps
 exclude =
     migrations,
     __pycache__,
     manage.py,
     settings.py
+    venv
