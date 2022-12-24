@@ -38,7 +38,7 @@ python manage.py runserver
 ```
 http://localhost:8000/admin/
 ```
-#### Index page url
+### Index page url
 ```
 http://localhost:8000/
 ```
