@@ -1,5 +1,6 @@
 black==22.6.0
 Django>=4.1.2,<4.2
+django-crispy-forms>=1.14.0,<1.15
 flake8>=6.0.0,<6.1
 flake8-bugbear>=22.12.6,<23.0
 flake8-import-order>=0.18.1,<0.19
