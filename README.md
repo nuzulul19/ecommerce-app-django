@@ -7,7 +7,10 @@ Build an E-commerce Store with Django
 
 ## How to run the application
 ### Copy `.env.sample` into `.env`
-**Note**: Overriding all the credentials are recommended but not required
+**Note**:
+1. Overriding all the credentials are **required**.
+2. `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` must be from a valid gmail account.
+3. Check the `Setting-up-2FA-and-creating-an-app-password.pdf` for creating email app password tutorial.
 
 ### Setting up the pre-commit package
 - Create new file `.pre-commit-config.yaml`
