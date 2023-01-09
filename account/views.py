@@ -91,12 +91,12 @@ def dashboard(request):
 @login_required(login_url="my-login")
 def profile_management(request):
     """Updating user's username and email only"""
+    form = UpdateUserForm(instance=request.user)
     if request.method == "POST":
         form = UpdateUserForm(request.POST, instance=request.user)
         if form.is_valid():
             form.save()
             return redirect("dashboard")
-    form = UpdateUserForm(instance=request.user)
     context = {"form": form}
     return render(request, "account/profile-management.html", context)
 
